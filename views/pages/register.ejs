@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/register.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1>Registratie</h1>
+        <div class="formbox">
+            <form action="/succes" method="POST">              <!-- //method="post" betekent dat het formulier data verstuurt  //action="/register" betekent dat de data naar die route gaat. -->
+                <label>Naam:</label>
+                <input type="text" name="naam" required>
+
+                <label>Email:</label>
+                <input type="email" name="email" required>
+
+                <label>Wachtwoord:</label>
+                <input type="password" name="wachtwoord" required>
+
+                <button type="submit">Registreer</button>
+            </form>
+        </div>
+
+    </main>
+    <footer></footer>
+</body>
+</html>
+

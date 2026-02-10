@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(29, 29, 29);
+    color:white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.formbox{
+    width: 400px; /* breedte van de box */ 
+    margin: 100px auto; /* centreren horizontaal */ 
+    padding: 20px; /* ruimte binnen de box */ 
+    background-color: #111; /* donkere achtergrond */ 
+    border-radius: 10px; /* afgeronde hoeken */ 
+    box-shadow: 0 0 15px rgba(0,0,0,0.5); /* mooie schaduw */ 
+    color: white;
+}
+
+
+h1{
+    display:flex;
+    justify-content: center;
+}
